@@ -2154,26 +2154,20 @@
 	"\/js\/krimileksikon.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/customizer.js",
+			"linkedFileAbbreviatedPath": "\/js\/navigation.js",
 			"position": 0,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/navigation.js",
-			"position": 1,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/skip-link-focus-fix.js",
-			"position": 2,
+			"position": 1,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/slick-carousel\/slick\/slick.js",
-			"position": 3,
+			"position": 2,
 			"type": 1
 			}
 		]
