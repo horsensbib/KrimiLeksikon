@@ -165,3 +165,12 @@ function krimileksikon_PostCount_shortcode() {
 	return $published_posts;
 }
 add_shortcode( 'antal', 'krimileksikon_PostCount_shortcode' );
+
+/**
+ * Add Excerpt Metabox to Pages
+ * http://wpquicktips.wordpress.com/2010/05/05/add-the-excerpt-meta-box-to-edit-page/
+ */
+function krimileksikon_pageexcerpt() {
+	add_meta_box('postexcerpt', __('Excerpt'), 'post_excerpt_meta_box', 'page', 'normal', 'core');
+}
+add_action( 'admin_menu', 'krimileksikon_pageexcerpt' );
