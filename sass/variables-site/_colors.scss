@@ -11,9 +11,9 @@ $color__background-ins: #fff9c0;
 $color__text-screen: #21759b;
 $color__text-input: #666;
 $color__text-input-focus: #111;
-$color__link: royalblue;
-$color__link-visited: purple;
-$color__link-hover: midnightblue;
+$color__link: $color__secondary;
+$color__link-visited: #999;
+$color__link-hover: lighten($color__secondary, 10%);
 $color__text-main: #404040;
 
 $color__border-button: #ccc #ccc #bbb;

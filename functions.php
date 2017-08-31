@@ -155,3 +155,13 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+/**
+ * Shortcode for displaying the number of published posts
+ */
+function krimileksikon_PostCount_shortcode() {
+	$count_posts = wp_count_posts('post');
+	$published_posts = $count_posts->publish;
+	return $published_posts;
+}
+add_shortcode( 'antal', 'krimileksikon_PostCount_shortcode' );

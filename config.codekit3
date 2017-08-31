@@ -149,6 +149,24 @@
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
+	"\/page--alphabetic.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page--alphabetic.php",
+		"oF": 0
+		},
+	"\/page--categories.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page--categories.php",
+		"oF": 0
+		},
+	"\/page--frontpage.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page--frontpage.php",
+		"oF": 0
+		},
 	"\/page.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -159,6 +177,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/phpcs.xml.dist",
+		"oF": 0
+		},
+	"\/README.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/README.html",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -455,6 +479,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/site\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/site\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/site\/_site.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -650,10 +687,34 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/template-parts\/content-cards.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-cards.php",
+		"oF": 0
+		},
+	"\/template-parts\/content-carousel.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-carousel.php",
+		"oF": 0
+		},
+	"\/template-parts\/content-categories.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-categories.php",
+		"oF": 0
+		},
 	"\/template-parts\/content-none.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-none.php",
+		"oF": 0
+		},
+	"\/template-parts\/content-page--frontpage.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-page--frontpage.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-page.php": {
