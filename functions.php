@@ -197,3 +197,10 @@ function get_img($size) {
 	$first_attachment = array_shift($attachments);
 	echo wp_get_attachment_image($first_attachment->ID, $size);
 }
+
+/**
+ * Add schema.org itemprop attribute to comments_popup_link
+ */
+function add_itemprop_to_comments_popup_link(){
+	return ' itemprop="discussionUrl" ';}
+add_filter( 'comments_popup_link_attributes', 'add_itemprop_to_comments_popup_link' );
