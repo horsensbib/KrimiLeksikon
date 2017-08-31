@@ -174,3 +174,15 @@ function krimileksikon_pageexcerpt() {
 	add_meta_box('postexcerpt', __('Excerpt'), 'post_excerpt_meta_box', 'page', 'normal', 'core');
 }
 add_action( 'admin_menu', 'krimileksikon_pageexcerpt' );
+
+/**
+ * Limit the number of words in excerpts
+ * To do: Possibly replace with wp_trim_words: https://codex.wordpress.org/Function_Reference/wp_trim_words
+ */
+function string_limit_words($string, $word_limit)
+{
+	$words = explode(' ', $string, ($word_limit + 1));
+	if(count($words) > $word_limit)
+	array_pop($words);
+	return implode(' ', $words);
+}
