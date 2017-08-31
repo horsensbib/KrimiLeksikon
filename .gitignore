@@ -1,0 +1,2 @@
+# Ignore bower components - use in concatenated files instead
+bower_components/
