@@ -33,6 +33,6 @@
   ],
   "private": true,
   "dependencies": {
-    "slick-carousel": "slick.js#^1.7.1"
+    "slick-carousel": "^1.7.1"
   }
 }
