@@ -15,7 +15,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main" itemprop="mainContentOfPage">
 			<?php do_action('before_main') ?>
-
+			<?php /*
 			<section class="introduction hero">
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -24,7 +24,7 @@ get_header(); ?>
 				<?php endwhile; // End of the loop.
 				wp_reset_query(); ?>
 			</section><!-- .introduction -->
-
+			*/ ?>
 			<section class="carousel">
 				<div class="carousel__inner">
 					<div class="carousel__inner__slider">

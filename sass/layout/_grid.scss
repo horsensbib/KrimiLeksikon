@@ -1,0 +1,13 @@
+@supports (display: grid) {
+  #page {
+    display: grid;
+    grid-template-columns: 300px 1fr; 
+  }
+  .home .site-main {
+    display: grid;
+    grid-template-columns: 30% 1fr;	  
+  }
+}
+@supports not (display: grid) {
+
+}

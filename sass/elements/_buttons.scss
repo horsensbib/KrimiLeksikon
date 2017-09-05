@@ -1,0 +1,130 @@
+.button {
+	border-radius: 0.4em;
+	border: 2px solid;
+	display: inline-block;
+	text-decoration: none;
+	padding: .5em .8em;
+}
+
+.button--small {font-size: .75em;}
+.button--medium {font-size: 1em;}
+.button--large {font-size: 1.25em;}
+
+.button--bordered--color__primary,
+.button--bordered--color__primary:visited {
+	border-color: $color__brand--primary;
+	color: $color__brand--primary;
+	&:hover,
+	&:active,
+	&:focus {
+		@extend .button--solid--color__primary;
+	}
+}
+
+.button--bordered--color__secondary,
+.button--bordered--color__secondary:visited {
+	border-color: $color__brand--secondary;
+	color: $color__brand--secondary;
+	&:hover,
+	&:active,
+	&:focus {
+		@extend .button--solid--color__secondary;
+	}
+}
+
+/*
+.button--bordered--color__accent,
+.button--bordered--color__accent:visited {
+	border-color: $color__brand--accent;
+	color: $color__brand--accent;
+	&:hover,
+	&:active,
+	&:focus {
+		@extend .button--solid--color__accent;
+	}
+}
+*/
+
+.button--solid--color__primary,
+.button--solid--color__primary:visited {
+	background: $color__brand--primary;
+	border-color: $color__brand--primary;
+	border-bottom-color: darken($color__brand--primary,10%);
+	color: $color__background-body;
+	&:hover,
+	&:active,
+	&:focus {
+		background: darken($color__brand--primary,10%);
+		border-color: darken($color__brand--primary,10%);
+		color: $color__background-body;
+	}
+}
+
+.button--solid--color__secondary,
+.button--solid--color__secondary:visited {
+	background: $color__brand--secondary;
+	border-color: $color__brand--secondary;
+	border-bottom-color: darken($color__brand--secondary,10%);
+	color: $color__background-body;
+	&:hover,
+	&:active,
+	&:focus {
+		background: darken($color__brand--secondary,10%);
+		border-color: darken($color__brand--secondary,10%);
+		color: $color__background-body;
+	}
+}
+/*
+.button--solid--color__accent,
+.button--solid--color__accent:visited {
+	background: $color__brand--accent;
+	border-color: $color__brand--accent;
+	border-bottom-color: darken($color__brand--accent,10%);
+	color: $color__background-body;
+	&:hover,
+	&:active,
+	&:focus {
+		background: darken($color__brand--accent,10%);
+		border-color: darken($color__brand--accent,10%);
+		color: $color__background-body;
+	}
+}
+*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	@extend .button;
+	@extend .button--medium;
+}
+
+button.small,
+input[type="button"].small,
+input[type="reset"].small,
+input[type="submit"].small {
+	@extend .button--small;
+}
+
+button.large,
+input[type="button"].large,
+input[type="reset"].large,
+input[type="submit"].large {
+	@extend .button--large;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+	@extend .button--solid--color__primary;
+}
+input[type="reset"] {
+	@extend .button--bordered--color__primary;
+}
+
+.search-form input[type="submit"].search-submit {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		position: absolute;
+		right: 0;
+		z-index: 2;
+}
