@@ -1,13 +1,41 @@
 @supports (display: grid) {
-  #page {
-    display: grid;
-    grid-template-columns: 300px 1fr; 
-  }
-  .home .site-main {
-    display: grid;
-    grid-template-columns: 30% 1fr;	  
-  }
+	#page,
+	.home .site-main {
+		display: grid;
+	}
+	
+	// Large displays
+	@media all and (min-width: 1200px) {
+	 
+		#page {
+		 grid-template-columns: 300px 1fr;
+		}
+		
+		.home .site-main {
+			grid-template-columns: 25em 1fr;
+		}
+
+	}
+ 
+ // Medium displays
+ @media all and (min-width: 800px) and (max-width: 1199px) {
+	 
+		#page {
+		 grid-template-columns: 300px 1fr;
+		}
+		
+		.home .site-main {
+		}
+
+	}
+	
+	// Small displays
+	@media all and (max-width: 799px) {
+		
+	}
+
 }
+
 @supports not (display: grid) {
 
 }

@@ -145,6 +145,148 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/slick\/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 0,
+		"oAP": "\/js\/slick\/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/js\/slick\/config.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/js\/slick\/config.rb",
+		"oF": 0
+		},
+	"\/js\/slick\/fonts\/slick.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/js\/slick\/fonts\/slick.eot",
+		"oF": 0
+		},
+	"\/js\/slick\/fonts\/slick.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/js\/slick\/fonts\/slick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/js\/slick\/fonts\/slick.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/js\/slick\/fonts\/slick.ttf",
+		"oF": 0
+		},
+	"\/js\/slick\/fonts\/slick.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/js\/slick\/fonts\/slick.woff",
+		"oF": 0
+		},
+	"\/js\/slick\/slick-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick-theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/slick\/slick-theme.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/js\/slick\/slick-theme.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/js\/slick\/slick.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/slick\/slick.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/slick\/slick-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/slick\/slick.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/js\/slick\/slick.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/slick\/slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/js\/slick\/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/languages\/krimileksikon.pot": {
 		"ft": 8192,
 		"oA": 2,
@@ -823,6 +965,12 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/skip-link-focus-fix.js",
 			"position": 1,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/slick\/slick.js",
+			"position": 2,
 			"type": 1
 			}
 		]

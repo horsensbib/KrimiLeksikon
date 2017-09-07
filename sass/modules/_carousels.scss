@@ -1,11 +1,11 @@
 // Slick Slider
 // ------------
 @charset "UTF-8";
-@import "../../bower_components/slick-carousel/slick/slick.scss";
-// @import "../../bower_components/slick-carousel/slick/slick-theme.scss";
+@import "../../js/slick/slick.scss";
+// @import "../../js/slick/slick-theme.scss";
 
 // Default Variables
-$slick-loader-path: "../../bower_components/slick-carousel/slick/" !default;
+$slick-loader-path: "../../js/slick/" !default;
 $slick-opacity-default: 0.75 !default;
 $slick-opacity-on-hover: 1 !default;
 $slick-opacity-not-active: 0.25 !default;

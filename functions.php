@@ -119,7 +119,7 @@ add_action( 'widgets_init', 'krimileksikon_widgets_init' );
 function krimileksikon_scripts() {
 	wp_enqueue_style( 'krimileksikon-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'krimileksikon-scripts', get_template_directory_uri() . '/js/krimileksikon.min.js', array('jquery'), '20170831', true );
+	wp_enqueue_script( 'krimileksikon-scripts', get_template_directory_uri() . '/js/krimileksikon.min.js', array('jquery'), '20170905', true );
 
 	// wp_enqueue_script( 'krimileksikon-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
